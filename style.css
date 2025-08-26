@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+   
+}
+
+
+
+.container {
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px #909090, 8px 8px 0px #575757;
+
+}
+.row{
+    display: flex;
+    margin-block:8px ;
+}
+.row p , .row label{
+    flex-basis:100%;
+    font-size: 18px;
+}
+.row input[type ="checkbox"]{
+    width: 20px;
+    height: 20px;
+
+}
+h1{
+    margin: 10px;
+}
+
+
+.inputbox [type="text"]{
+  width: 420px;
+  height: 30px;
+  margin-bottom: 20px;
+  overflow:hidden;
+ 
+   
+}
+.inputbox{
+    position: relative;
+}
+.inputbox span{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    cursor: pointer;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    height: 40px;px ;
+}
